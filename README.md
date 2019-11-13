@@ -10,7 +10,7 @@ We plan to add a manual function, where users can control JESSICA with an EMG my
 
 ## Simple communication from Arduino Uno to Raspberry Pi:
 ### Code in Arduino
-
+```
 void setup(){
   Serial.begin(9600);
 }
@@ -19,15 +19,15 @@ void loop(){
   Serial.println("Hello World!");   
   delay(2000);
 }
-
+```
 ### Python code in RPi:
-
+```
 ser = serial.Serial('/dev/ttyUSB0', 9600)
 while 1: 
     if(ser.in_waiting >0):
         line = ser.readline()
         print(line)
-
+```
 
 
 ### Useful guides:
