@@ -1,5 +1,5 @@
 # JESSICA-SOAR
-SOAR to the floor
+
 
 Documentation for incoming team, taking over the JESSICA robot arm.
 
