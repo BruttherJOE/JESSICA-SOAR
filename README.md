@@ -6,6 +6,8 @@ Documentation for incoming team, taking over the JESSICA robot arm.
 JESSICA is a robot arm that can automatically serve coffee upon activation. 
 We plan to add a manual function, where users can control JESSICA with an EMG myosensor armband.
 
+Jessica Official User Manual: https://docs.google.com/document/d/1G08B-u7dCPXrhegcuyMNm5uVpz2V24PNg4Rs550GA4I/edit
+
 
 
 ## Simple communication from Arduino Uno to Raspberry Pi:
