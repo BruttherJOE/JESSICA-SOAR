@@ -8,7 +8,7 @@ We are currently adding a manual function, where users can control JESSICA with 
 
 Jessica Official User Manual: https://docs.google.com/document/d/1G08B-u7dCPXrhegcuyMNm5uVpz2V24PNg4Rs550GA4I/edit
 
-
+Main2020.py is the script that is currently running in the RPI that is in niryo now.
 
 ## Simple communication from Arduino Uno to Raspberry Pi:
 ### Code in Arduino
