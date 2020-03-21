@@ -36,12 +36,12 @@ roscore
 rosparam set joy_node/dev "/dev/input/jsX"
 ```
 
-
+ 
 rosparam sets the controller profile to your connected controller   
 
 
 -------------------------------------
-we then start the joy node. this node needs to be running or else the arm cannot be moving.
+we then start the joy node. this node needs to be running or else the arm cannot be moving.  
 
 `rosrun joy joy_node`  
 
@@ -51,8 +51,8 @@ we then start the joy node. this node needs to be running or else the arm cannot
 
 >open new terminal
 
-do
-`rostopic echo joy`
+do  
+`rostopic echo joy`  
 
 
 in niryo studio, enable joystick mode. the arm should be able to move when the buttons are pressed.
