@@ -1,7 +1,7 @@
- 
+ # xbox controller to move Jessica
 
 
-got some problems : when connecting bluetooth module to rpi it kicks out ssh connection as well as ethernet connection at the same time.
+got some initial problems : when connecting bluetooth module to rpi it kicks out ssh connection as well as ethernet connection at the same time.
 
 
 We first install the driver so that it can be communicated with the controller:  
@@ -41,10 +41,10 @@ rosparam sets the controller profile to your connected controller
 
 
 -------------------------------------
-we then start the joy node. this node needs to be running or else the arm cannot be moving.  
-
+we then start the joy node. this node needs to be running or else the arm cannot be moving.    
+do  
 `rosrun joy joy_node`  
-
+  
 
 
 ### to view output logs from joynode
@@ -57,12 +57,12 @@ do
 
 in niryo studio, enable joystick mode. the arm should be able to move when the buttons are pressed.
 
+  
+  
+  
+   
 
-
-
-
-
-
+   
 
 CREDITS
 ---------------
