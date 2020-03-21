@@ -8,28 +8,29 @@ We first install the driver so that it can be communicated with the controller:
 `sudo apt-get install xboxdrv`
   
 
-`lsusb`
-lists all things connected via usb
+`lsusb`  
+lists all things connected via usb  
 
-expected output within other useless outputs:
-`Bus 001 Device 005: ID 045e:0291 Microsoft Corp. Xbox 360 Wireless Receiver for Windows`
+expected output within other useless outputs:  
+`Bus 001 Device 005: ID 045e:0291 Microsoft Corp. Xbox 360 Wireless Receiver for Windows`  
 
-ROS
-to check for name of joystick
+ROS  
+to check for name of joystick  
 `ls /dev/input/`
 
-you should get a list of all the connected input devices to the rpi.
-for our case js0 was the name of our connected xbox controller.
+you should get a list of all the connected input devices to the rpi.  
+for our case js0 was the name of our connected xbox controller.  
 
 > IMPT : FOR THE FOLLOWING CASES BELOW, X STANDS FOR THE NUMBER OF THE CONTROLLER. IN OUR CASE IT WAS JS0.  
+  
 
+to test whether the buttons give output log on terminal use   
+`sudo jstest /dev/input/jsX`  
 
-to test whether the buttons give output log on terminal use 
-`sudo jstest /dev/input/jsX`
+then we make joystick accessible for the ROS joy node. Start by listing the permissions of the joystick:  
 
-then we make joystick accessible for the ROS joy node. Start by listing the permissions of the joystick:
+`ls -l /dev/input/jsX`  
 
-`ls -l /dev/input/jsX`
 ```
 roscore
 rosparam set joy_node/dev "/dev/input/jsX"
