@@ -14,7 +14,7 @@ lists all things connected via usb
 expected output within other useless outputs:
 `Bus 001 Device 005: ID 045e:0291 Microsoft Corp. Xbox 360 Wireless Receiver for Windows`
 
-
+ROS
 to check for name of joystick
 `ls /dev/input/`
 
@@ -39,8 +39,8 @@ rosparam set joy_node/dev "/dev/input/jsX"
 rosparam sets the controller profile to your connected controller   
 
 
-
-we then start the joy node
+-------------------------------------
+we then start the joy node. this node needs to be running or else the arm cannot be moving.
 
 `rosrun joy joy_node`  
 
