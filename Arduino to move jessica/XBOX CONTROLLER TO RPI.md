@@ -15,16 +15,16 @@ expected output within other useless outputs:
 `Bus 001 Device 005: ID 045e:0291 Microsoft Corp. Xbox 360 Wireless Receiver for Windows`  
 
 ROS  
-to check for name of joystick  
+### to check for name of joystick  
 `ls /dev/input/`
 
 you should get a list of all the connected input devices to the rpi.  
 for our case js0 was the name of our connected xbox controller.  
 
-> IMPT : FOR THE FOLLOWING CASES BELOW, X STANDS FOR THE NUMBER OF THE CONTROLLER. IN OUR CASE IT WAS JS0.  
+__IMPT : FOR THE FOLLOWING CASES BELOW, X STANDS FOR THE NUMBER OF THE CONTROLLER. IN OUR CASE IT WAS JS0.__  
   
 
-to test whether the buttons give output log on terminal use   
+### to test whether the buttons give output log on terminal use   
 `sudo jstest /dev/input/jsX`  
 
 then we make joystick accessible for the ROS joy node. Start by listing the permissions of the joystick:  
@@ -68,3 +68,4 @@ CREDITS
 ---------------
 followed   
 https://tutorials-raspberrypi.com/raspberry-pi-xbox-360-controller-wireless/ 
+http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick
