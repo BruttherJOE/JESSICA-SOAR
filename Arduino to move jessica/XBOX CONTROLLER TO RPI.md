@@ -4,9 +4,9 @@
 got some problems : when connecting bluetooth module to rpi it kicks out ssh connection as well as ethernet connection at the same time.
 
 
-We first install the driver so that it can be communicated with the controller:
+We first install the driver so that it can be communicated with the controller:  
 `sudo apt-get install xboxdrv`
-
+  
 
 `lsusb`
 lists all things connected via usb
