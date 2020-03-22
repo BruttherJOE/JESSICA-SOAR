@@ -31,6 +31,12 @@ while 1:
         print(line)
 ```
 
+### impt for joes work
+niryo_one_ros/niryo_one_bringup/launch/user_interface.launch  
+to get to ui documentations  
+
+
+
 
 ### Useful guides:
 
