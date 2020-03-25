@@ -34,6 +34,7 @@ while 1:
 ### impt for joes work
 niryo_one_ros/niryo_one_bringup/launch/user_interface.launch  
 to get to ui documentations  
+https://maker.pro/raspberry-pi/tutorial/how-to-connect-and-interface-raspberry-pi-with-arduino
 
 
 
