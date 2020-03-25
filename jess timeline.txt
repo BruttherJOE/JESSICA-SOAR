@@ -1,0 +1,30 @@
+by 20 mar : 
+print new housings for jessica (xy) (done)
+recrimp cables and touch up jessica. get familiar with wiring (calvin)
+do gripper (calvin)
+xbox controllers up and running (joe)
+
+on 25 mar wed 1200-1700 :
+solve jessica's issues. make it run on only 1 arduino. (joe, calvin)
+gripper ready (calvin)
+solder perfboard on glove(long,ferry)
+
+by 27 mar:
+3d printed glove completed (long, ferry)
+xbox to moveit test. analyse movements if they are too slow.(joe)
+learned eagle pcb(kevin, xy)
+
+by 3 apr: (warning: math test in this week)
+PCB READY (kevin, xy)
+ - perfboard if it fails
+glove able to control jessica
+
+by 10 apr:
+touch up circuits, qol changes
+add acrylic to table to make it look futuristic
+
+
+
+accidentally turned off niryo host while trying to give rpi access to download controller packages.
+
+> resolved by ethernet cable connection ssh 
