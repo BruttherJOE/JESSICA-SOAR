@@ -23,8 +23,10 @@ by 10 apr:
 touch up circuits, qol changes
 add acrylic to table to make it look futuristic
 
+15 apr update : schedule interrupted due to covid-19. We will do what we can in the meantime.
 
 
+mistakes:
 accidentally turned off niryo host while trying to give rpi access to download controller packages.
 
 > resolved by ethernet cable connection ssh 
