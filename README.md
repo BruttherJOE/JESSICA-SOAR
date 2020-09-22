@@ -31,7 +31,7 @@ while 1:
         print(line)
 ```
 
-### impt for joes work
+### Interfacing RPI with Arduino
 niryo_one_ros/niryo_one_bringup/launch/user_interface.launch  
 to get to ui documentations  
 https://maker.pro/raspberry-pi/tutorial/how-to-connect-and-interface-raspberry-pi-with-arduino
